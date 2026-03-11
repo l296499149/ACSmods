@@ -1,0 +1,25 @@
+﻿<Stories><List>	
+<Story Name="FUHUOLIVE"  Parent="BaseFillingStory">
+		<DisplayName>造化弄人</DisplayName>
+		<Desc>从天而降一门神通。</Desc>
+		<Selections>
+			<li>
+				<Display>搜索</Display> 
+				<OKResult>
+				me:AddMsg("[NAME]在此地不一会儿就发现了一本神通，赶紧揣兜里带了回来。")
+				me:DropEsoteric("FUHUOLIVE");
+				story:FinishSecret();
+				</OKResult>
+			</li>
+			<li>
+				<Display>离开</Display>
+				<OKResult>	
+				me:AddMsg("[NAME]想了想，决定还是不冒险，转身离去。");
+				</OKResult>
+			</li>
+		</Selections>
+	</Story>
+
+
+
+</List></Stories>

@@ -1,0 +1,22 @@
+﻿<Magics><List>
+
+
+	<Magic Name="FUHUOLIVE" Type="Class">
+		<DisplayName>大复活术</DisplayName>
+		<Desc>可以将弥留或者死亡的人进行复活。</Desc>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<Kind>None</Kind>
+		<Ani>shentong2</Ani>
+		<Param1>15</Param1>
+		<CostLing>50000</CostLing>
+		<CostAge>200</CostAge>
+		<Penalty>100</Penalty>
+		<SelectMode>Single</SelectMode>
+		<TargetAni>dazuo</TargetAni>
+		<ClassName>FUHUOLIVE</ClassName>
+		<SelectTarget>Npc</SelectTarget>
+		<TargetDesc>请选择一名已死亡的角色。</TargetDesc>
+	</Magic>
+
+
+</List></Magics>

@@ -1,0 +1,20 @@
+﻿<Esotericas><List>
+
+
+	<Esoterica Name="FUHUOLIVE">
+		<DisplayName>大复活术</DisplayName>
+		<Icon>res\Sprs\ui\icon_youcui01</Icon>
+		<StarLevel>2</StarLevel>
+		<Difficulty>10</Difficulty>
+		<Desc>可以将弥留或者死亡的人进行复活。</Desc>
+		<GLevel>Dan2</GLevel>
+		<Element>None</Element>
+		<Type>None</Type>
+		<EffectDesc>[size=10][color=#D06508]习得神通：大复活术\n可以将弥留或者死亡的人进行复活。[/color][/size]</EffectDesc>
+		<Magics>
+			<li>FUHUOLIVE</li>
+		</Magics>
+	</Esoterica>
+
+
+</List></Esotericas>
