@@ -1,0 +1,206 @@
+<Places><List>
+
+	<Place Name="Place_SanShan997" Parent="Place_Level2Base">
+		<Location X="1250" Y="950"/>
+		<Icon>res/Sprs/map/map_cunluo01</Icon>
+		<DisplayName>万珀村</DisplayName>
+		<Desc>一座小型村落，村中居民存有很多珀，他们很乐意以珀为报酬付给仙长们。</Desc>
+		<UnLocked>1</UnLocked>
+		<Events>
+			<li Name="Find" Rate="1"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_SoulCrystalYou</ThingDef>
+				<Count>5</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SoulCrystalNing</ThingDef>
+				<Count>5</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SoulCrystalLing</ThingDef>
+				<Count>5</Count>
+				<Rate>1</Rate>
+			</li>
+		</Produce>
+	</Place>
+
+	<Place Name="Place_SanShan998" Parent="Place_Level2Base">
+		<Location X="1300" Y="950"/>
+		<Icon>res/Sprs/map/map_shan01</Icon>
+		<DisplayName>灵晶石山</DisplayName>
+		<Desc>南方边境的一座小山，里面有很多灵石灵晶。</Desc>
+		<UnLocked>1</UnLocked>
+		<Events>
+			<li Name="Find" Rate="1"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_LingStone</ThingDef>
+				<Count>1000</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_LingCrystal</ThingDef>
+				<Count>50</Count>
+				<Rate>0.5</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+	<Place Name="Place_SanShan999" Parent="Place_Level2Base">
+		<Location X="1350" Y="950"/>
+		<Icon>res/Sprs/map/map_shan01</Icon>
+		<DisplayName>镇物山</DisplayName>
+		<Desc>南方边境的一座小山，里面有很多古修埋藏的镇物。</Desc>
+		<UnLocked>1</UnLocked>
+		<Events>
+			<li Name="Find" Rate="1"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>FengShuiItem_YinZhang1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_YinZhang2</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_YinZhang3</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_Ta1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_Ta2</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_Ping1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_Ding1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_Bei1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_ShiZi1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_ShiTou1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_TuHua1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_ShuJi1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_QiJu1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_FuZhou1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_Jian1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_HuLu1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_BaoBei1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>FengShuiItem_SheLi1</ThingDef>
+				<Count>1</Count>
+				<Rate>1</Rate>
+			</li>
+			</Produce>
+	</Place>
+	
+	
+	<Place Name="Place_SanShan1000" Parent="Place_Level2Base">
+		<Location X="1250" Y="900"/>
+		<Icon>res/Sprs/map/map_cunluo01</Icon>
+		<DisplayName>年货村</DisplayName>
+		<Desc>年关将至，突然出现的无名村落，有人去过后带出来很多奇特的特产。</Desc>
+		<UnLocked>1</UnLocked>
+		<Events>
+			<li Name="Find" Rate="1"/>
+		</Events>
+		<Produce>
+			<li>
+				<ThingDef>Item_Jiaozi</ThingDef>
+				<Count>50</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Firecracker</ThingDef>
+				<Count>5</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_FirecrackerShit</ThingDef>
+				<Count>5</Count>
+				<Rate>1</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Yingbi1</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Yingbi2</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_Yingbi3</ThingDef>
+				<Count>1</Count>
+				<Rate>0.3</Rate>
+			</li>
+			<li>
+				<ThingDef>Item_SpringBox</ThingDef>
+				<Count>1</Count>
+				<Rate>0.1</Rate>
+			</li>
+		</Produce>
+	</Place>
+	
+</List></Places>

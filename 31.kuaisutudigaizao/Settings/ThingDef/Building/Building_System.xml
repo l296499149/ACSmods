@@ -1,0 +1,94 @@
+<ThingDefs><List>
+
+	<ThingDef Type="Building" Name="kuaisutudi" Parent="FillBase">	
+		<Color>EEEE00FF</Color>
+		<ThingName>快速土地改造</ThingName>
+		<Desc>快速的将一块区域改造成土地，缩短了大量的时间。</Desc>
+		<Building>
+			<FillTarrain>Soil</FillTarrain>
+			<TerrainAffordanceNeeded>GroundShallowWater</TerrainAffordanceNeeded>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+			</BeMade>
+		</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="kuaisuwotu" Parent="FillBase">	 
+		<Color>C1FFC1FF</Color>
+		<ThingName>快速沃土改造</ThingName>
+		<Desc>快速的将一块陆地区域改造成沃土，缩短了大量的时间。</Desc>
+		<Building>
+			<FillTarrain>FertileSoil</FillTarrain>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name="Item_Shit" count="5"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="kuaisuqianshui" Parent="FillBase">	
+		<Color>98F5FFFF</Color>
+		<ThingName>快速浅水改造</ThingName>
+		<Desc>快速的将一块陆地区域改造成浅水，缩短了大量的时间。</Desc>
+		<Building>
+			<FillTarrain>ShallowWater</FillTarrain>
+			<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+			<BeMade>
+				<WorkToMake>100</WorkToMake>
+				<CostItems>
+					<Item name="Item_Water" count="50"/>
+				</CostItems>
+			</BeMade>
+		</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FillStoneLand" Parent="FillBase">	
+			<Color>AC9254FF</Color>
+			<ThingName>快速矿地改造</ThingName>
+			<Desc>快速的将一块区域改造成土地，缩短了大量的时间。</Desc>
+			<Building>
+				<FillTarrain>StoneLand</FillTarrain>
+				<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>100</WorkToMake>
+				</BeMade>
+			</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FillLingSoil" Parent="FillBase">	
+			<Color>006550E5</Color>
+			<ThingName>快速灵土改造</ThingName>
+			<Desc>快速的将一块区域改造成土地，缩短了大量的时间。</Desc>
+			<Building>
+				<FillTarrain>LingSoil</FillTarrain>
+				<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>100</WorkToMake>
+					<CostItems>
+					<Item name="Item_LingStone" count="10"/>
+				</CostItems>
+				</BeMade>
+			</Building>
+	</ThingDef>
+	
+	<ThingDef Type="Building" Name="FillLingWater" Parent="FillBase">	
+			<Color>2EE2E8FF</Color>
+			<ThingName>快速灵水改造</ThingName>
+			<Desc>将一块区域改造成土地，缩短了大量的时间。</Desc>
+			<Building>
+				<FillTarrain>LingWater</FillTarrain>
+				<TerrainAffordanceNeeded>Ground</TerrainAffordanceNeeded>
+				<BeMade>
+					<WorkToMake>100</WorkToMake>
+					<CostItems>
+					<Item name="Item_LingStone" count="10"/>
+					<Item name="Item_Water" count="50"/>
+				</CostItems>
+				</BeMade>
+			</Building>
+	</ThingDef>
+	
+</List></ThingDefs>

@@ -1,0 +1,8 @@
+<MainList><List>
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="kuaisutudi"/>
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="kuaisuwotu"/>
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="kuaisuqianshui"/>
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="FillStoneLand"/>
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="FillLingSoil"/>
+	<Data Kind="Builds" Type="区域" Unlock="3"  CMDType="Build" Name="FillLingWater"/>
+</List></MainList>
