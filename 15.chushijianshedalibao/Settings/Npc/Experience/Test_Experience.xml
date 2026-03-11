@@ -1,0 +1,20 @@
+﻿<Experiences><List>
+	<Experience Name="QChushiExperiences">
+		<DisplayName>初始建设大礼包</DisplayName>
+		<Desc>初始五行建设材料各1000。</Desc>
+		<Point>0</Point>
+		<Items>
+			<li Name= "Item_ParasolWood" Count="1000"/>
+			<li Name= "Item_LingWood" Count="1000"/>
+			<li Name= "Item_SkyStoneBlock" Count="1000"/>
+			<li Name= "Item_LingCrystalBlock" Count="1000"/>
+			<li Name= "Item_LingStoneBlock" Count="1000"/>
+			<li Name= "Item_CopperBlock1" Count="500"/>
+			<li Name= "Item_SilverBlock1" Count="500"/>
+			<li Name= "Item_SilverBlock" Count="1000"/>
+			<li Name= "Item_CopperBlock" Count="1000"/>
+			<li Name= "Item_StarEssenceBlock" Count="1000"/>
+			<li Name= "Item_LingCrystalLeftover" Count="10000"/>
+		</Items>		
+	</Experience>	
+</List></Experiences>

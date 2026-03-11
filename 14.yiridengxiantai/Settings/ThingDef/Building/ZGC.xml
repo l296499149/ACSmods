@@ -1,0 +1,68 @@
+<ThingDefs><List>
+	<ThingDef Type="Building" Name="ZGC" Parent="Building_ZhengFaBuildBase">
+	<TexPath>res\Sprs\building_zhengfatianxia\building_KLfatan01</TexPath>
+	<TexScale>1</TexScale>
+	<ThingName>紫霄宮</ThingName>	
+	<Tags>
+		<Tag Name="Sitable" Level="1"/>
+		<Tag Name="Practice" Level="1"/>
+	</Tags>
+	<ShadowSize>
+		<x>1</x>
+		<y>1.2</y>
+	</ShadowSize>
+	<ColliderKind>NoPass</ColliderKind>
+	<Collider>
+		<!--(0Empty 1Base) 2EmptyCenter 4EmptyWorkspace-->
+		<Data>
+		[0,0,5,0,0],
+		[0,0,3,0,0],
+		[0,0,0,0,0],
+		</Data>
+		<WorkOffset>
+			<li Index="0"  X="0" Y="0.15" Z="-1" Ang="181"/>
+		</WorkOffset>
+		<OffsetGroup>
+			<li><x>0</x><y>0</y></li>  <!-- 后 -->
+			<li><x>0</x><y>0</y></li>     <!-- 右 -->
+			<li><x>0</x><y>0.7</y></li>     <!-- 前 -->
+			<li><x>0</x><y>0</y></li>     <!-- 左 -->
+		</OffsetGroup>
+	</Collider>
+	<FreePuppet>2</FreePuppet>
+	<Building>
+		<OwnerCount>1</OwnerCount>
+		<PracticeEffectiveness>1.4</PracticeEffectiveness>
+		<BeMade>
+			<WorkToMake>800</WorkToMake>
+			<Quality>0</Quality>
+			<StuffCategories>
+				<Stuff name = "MetalBlock"/>
+				<Stuff name = "RockBlock"/>
+				<Stuff name = "WoodBlock"/>
+			</StuffCategories>
+			<CostStuffCount>25</CostStuffCount>
+			<CostItems>
+			</CostItems>
+		</BeMade>
+		<SnowRenderData>
+			<x>2.55</x>
+			<y>3.5</y>
+			<z>1</z>
+		</SnowRenderData>		
+	</Building>
+	<Ling>
+		<AddionLing>600</AddionLing>
+		<AddionRadius>2</AddionRadius>
+		<AddionFailing>1</AddionFailing>
+		<AddionFailRadius>1</AddionFailRadius>
+		
+		<Attenuation>0</Attenuation>
+		<Absorption>0</Absorption>
+		<Accommodate>0</Accommodate>
+	</Ling>
+			<StoryBnts>
+	</StoryBnts>
+	</ThingDef>	
+	
+</List></ThingDefs>
