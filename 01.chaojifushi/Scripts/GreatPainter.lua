@@ -1,4 +1,4 @@
-local GreatPainter = GameMain:GetMod("GreatPainter");--先注册一个新的MOD模块
+﻿local GreatPainter = GameMain:GetMod("GreatPainter");--先注册一个新的MOD模块
 --GreatPainter.AutoStart = true;
 GreatPainter.Power = 12;
 local GlobleDataMgr = CS.XiaWorld.GlobleDataMgr.Instance;
