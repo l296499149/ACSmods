@@ -1,0 +1,47 @@
+<Experiences><List>
+	<!--<Experience Name="LunHui_gongjuren_errendelvtu">
+		<DisplayName>二人的旅途</DisplayName>
+		<Desc>带着仅有的一些食物和水踏上旅程\n\n\n[size=10]初始物资增加[color=#D06508]面饼\n初始物资增加[color=#D06508]肉干\n初始物资增加[color=#D06508]水[/size]
+		</Desc>
+		<Point>-5</Point>
+		<Items>
+		    <li Name= "Item_Cake" Count="100"/>
+			<li Name= "Item_Jerky" Count="100"/>
+			<li Name= "Item_Water" Count="100"/>
+		</Items>
+        <NpcSlot>-1</NpcSlot>		
+	</Experience>
+	-->
+	<Experience Name="LunHui_gongjuren_jiazuyichan">
+		<DisplayName>家族遗产</DisplayName>
+		<Desc>从家族废墟中找到了一些遗物\n\n\n[size=10]初始物资增加[color=#D06508]高阶法宝[/color]\n初始物资增加[color=#D06508]高阶丹药[/color]\n初始物资增加[color=#D06508]高阶秘籍[/color]\n初始物资增加[color=#D06508]高阶符箓[/color][/size]
+		</Desc>
+		<Point>5</Point>
+		<Items>
+		    <li Name= "Item_E_FaBaoBox" Count="1"/>
+			<li Name= "Item_E_DanBox" Count="1"/>
+			<li Name= "Item_E_MiJiBox" Count="1"/>
+			<li Name= "Item_E_FuBox" Count="1"/>
+		</Items>
+	</Experience>
+	
+	<Experience Name="LunHui_gongjuren_guomubuwang">
+		<DisplayName>过目不忘</DisplayName>
+		<Desc>你虽然失去道根，但却记得家族传承的所有功法\n\n\n[size=10]解锁功法：[color=#D06508]《太和十六洞天》[/color]\n解锁功法：[color=#D06508]《己寅九冲多宝真解》[/color]\n解锁功法：[color=#D06508]《七杀剑诀》[/color]\n解锁功法：[color=#D06508]《玉清仙法》[/color]\n解锁功法：[color=#D06508]《偷天诀》[/color]\n解锁功法：[color=#D06508]《九转金丹直指》[/color]\n解锁功法：[color=#D06508]《太上忘情道》[/color]\n解锁功法：[color=#D06508]《北斗洞心劫法》[/color]\n解锁功法：[color=#D06508]《长生六道轮回经》[/color]\n解锁功法：[color=#D06508]《三阳三昧丙丁炼火诀》[/color]\n解锁功法：[color=#D06508]《葵花炼神大法》[/color][/size]
+		</Desc>
+		<Point>5</Point>
+		<Gongs>
+			<li>Gong_1_Shui</li>
+			<li>Gong_2_Mu</li>
+			<li>Gong_3_Jin</li>
+			<li>Gong_4_None</li>
+			<li>Gong_5_Tu</li>
+			<li>Gong_6_Huo</li>
+			<li>Gong_7_Huo</li>
+			<li>Gong_8_Jin</li>
+			<li>Gong_9_Mu</li>
+			<li>Gong_10_Huo</li>
+			<li>Gong_11_Tu</li>
+		</Gongs>
+	</Experience>
+</List></Experiences>

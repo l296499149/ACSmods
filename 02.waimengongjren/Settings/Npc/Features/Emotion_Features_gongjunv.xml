@@ -1,0 +1,132 @@
+<FeatureDefs><List>
+	<!--
+	<Feature Name="N1" Type="Normal">
+		<DisplayName>样例</DisplayName>
+		<Desc>样例</Desc>
+		<HideInUI>1</HideInUI>
+		<Mutex>
+				<li>CrippleLeft</li>
+				<li>CrippleRight</li>
+		</Mutex>
+		<BanRelations>
+				<li>Parent</li>
+		</BanRelations>
+		<Opposition> 对立特性
+			<li>StinkAllOver</li>
+			<li>Slovenly</li>
+		</Opposition>
+		<Close>亲近特性
+			<li>Cleanliness</li>
+		</Close>
+		<MoodBranch> 心情分支
+			<li Old="BedroomExpect8" New="BedroomExpect6"/>
+		</MoodBranch>
+		<ModifierDef>
+			<BaseFive>0,0,0,0,0</BaseFive>
+			<Properties>
+				<li Name="MoveSpeed" AddV="5" AddP="0.5"/>
+				<li Name="VisionRadius" AddP="-0.5"/>
+			</Properties>
+			<Skills>
+				<li Name="Building" Level="1"/>
+				<li Name="Mining" Level="2"/>
+			</Skills>
+			<BanBodyParts>
+				<li>LeftEye</li>
+			</BanBodyParts>
+			<BanJobs>
+				<li>Clean</li>
+				<li>Build</li>
+			</BanJobs>
+			<Damages>
+				<li Part="LeftThighbone" Damage="Scar" Value="0.5"/>
+			</Damages>
+			<Moods>
+				<li>Optimistic</li>
+			</Moods>
+			<GiveFavours>
+				<li>Scar</li>
+			</GiveFavours>
+			<GetFavours>
+				<li>Scar</li>
+			</GetFavours>
+		</ModifierDef>
+	</Feature> 
+	-->
+
+	<Feature Name="tianqianzhiren" Type="Backstory">
+		<DisplayName>天谴之人</DisplayName>
+		<Desc>这一生都将活着替祖先偿还欠下的业债</Desc>
+		<ModifierDef>
+			<BaseFive>0,0,0,0,-3</BaseFive>
+			<Properties>
+				<li Name="GodPenaltyAddV" AddV="1000"/>
+				<li Name="MaxAge" AddV="100"/>
+			</Properties>
+		</ModifierDef>
+	</Feature> 
+	<Feature Name="chaofanyizhi" Type="Backstory">
+		<DisplayName>超凡意志</DisplayName>
+		<Desc>历经过太多苦难，已经没有什么事情能影响自己的意志了。</Desc>
+		<Mutex>
+			<li>Sensitive</li>
+		</Mutex>
+		<MoodBranch>
+			<li Old="Entertainment6" New="Entertainment3"/>
+			<li Old="Entertainment5" New="Entertainment3"/>
+			<li Old="Entertainment4" New="Entertainment3"/>
+		</MoodBranch>
+		<ModifierDef>
+			<BaseFive>7,0,4,10,0</BaseFive>
+			<SpecialFlags>
+				<li>FLAG_NOTNEGATIVE</li>
+			</SpecialFlags>
+			<Properties>
+				<li Name="EmotionAmplificationFactor" AddV="0" AddP="-0.5"/>
+				<li Name="NutritionConsumeConstant" AddP="-0.5"/>
+				<li Name="WaterConsumeConstant" AddP="-0.5"/>
+				<li Name="HappyConsumeConstant" AddP="-1.0"/>
+				<li Name="HappyRecoveryConstant" AddP="1.0"/>
+				<li Name="PainTolerance" AddP="1.0"/>
+			</Properties>
+			<Skills>
+				<li Name="Fight" Level="20"/>
+				<li Name="DanQi" Level="20"/>
+				<li Name="Building" Level="0"/>
+				<li Name="Farming" Level="20"/>
+				<li Name="Manual" Level="20"/>
+				<li Name="Mining" Level="0"/>
+				<li Name="Qi" Level="20"/>
+				<li Name="Fabao" Level="20"/>
+				<li Name="FightSkill" Level="20"/>
+				<li Name="SocialContact" Level="20"/>
+				<li Name="Cooking" Level="10"/>
+				<li Name="Medicine" Level="20"/>
+				<li Name="Art" Level="20"/>
+				<li Name="DouFa" Level="20"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="jingmaijinshi" Type="Backstory">
+		<DisplayName>经脉尽失</DisplayName>
+		<Desc>被老天夺去经脉，终生不得修行。</Desc>
+		<HideInUI>0</HideInUI>
+		<ModifierDef>
+			<Damages>
+				<li Part="YinWeiChannel" Damage="MeridianBlocking" Value="0.99"/>
+				<li Part="YinHeelChannel" Damage="MeridianBlocking" Value="0.99"/>
+				<li Part="YangWeiChannel" Damage="MeridianBlocking" Value="0.99"/>
+				<li Part="YangHeelChannel" Damage="MeridianBlocking" Value="0.99"/>
+				<li Part="RenChannel" Damage="MeridianBlocking" Value="0.99"/>
+				<li Part="DuChannel" Damage="MeridianBlocking" Value="0.99"/>
+				<li Part="ChongChannel" Damage="MeridianBlocking" Value="0.99"/>
+				<li Part="BeltChannel" Damage="MeridianBlocking" Value="0.99"/>
+			</Damages>
+		</ModifierDef>
+	</Feature> 
+
+
+
+	
+</List></FeatureDefs>

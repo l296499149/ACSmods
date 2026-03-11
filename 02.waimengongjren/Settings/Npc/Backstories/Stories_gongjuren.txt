@@ -1,0 +1,8 @@
+﻿ID	Race	Grades	Sex	Name	Desc	BeginYear	Perception	Physique	Charisma	Intelligence	Luck	Fight	Qi	SocialContact	Medicine	Cooking	Building	Farming	Mining	Art	Manual	DouFa	DanQi	Fabao	FightSkill	Barrier	F1	F2	F3	F4	F5	F6
+ID	种族	阶段 0童年 1成年 2重大事件 	性别 0均可 1男 2女	名字	描述	触发开始年份	感知	体质	魅力	悟性	运气	战斗	气感	社交 （所有技能等级后面可以附加,X。X为热爱程度 1为热爱 2为痴迷）	医术	厨艺	建筑	农事	采掘	艺术	制造	斗法	丹器	御物	术法	护体	特性1	特性2	特性3	特性4	特性5	特性6
+379991	Human	0	1	实验品	被当做人形兵器制造出来							0,2	0,2				0,2	0,2	0,2	0	0,2	0,2	0,2	0,2	0,2	0,2	
+379992	Human	1	1	火灾幸存者	一场实验室大火毁坏了所有数据，但万幸的是自己活了下来									
+379993	Human	2	1	一生所爱	漫无目的的旅途中结识了一生所爱之人，于是开始学习像人一样生活												
+379994	Human	0	2	修仙世家	出生在修仙世家，从小天赋异禀							0,2	0,2	0,2	0,2	0,1	0	0,2	0	0,2	0,2	0,2	0,2	0,2	0,2	0,2	
+379995	Human	1	2	流浪旅人	家道中落，只得四处流浪。并在旅途中结识了与自己一样不幸的人。	
+379996	Human	2	2	天劫之灾	家族世代以邪修为根本，终触怒上天引来浩劫。虽受家族所累，但念在年幼未行恶事，罪不至死侥幸存活。却也被夺去道根终生不得踏入仙途。																											

@@ -1,0 +1,14 @@
+<Experiences><List>
+	<Experience Name="LunHui_gongjuren_errendelvtu1">
+		<DisplayName>二人的旅途</DisplayName>
+		<Desc>带着仅有的一些食物和水踏上旅程\n\n\n[size=10]初始物资增加[color=#D06508]面饼[/color]\n初始物资增加[color=#D06508]肉干[/color]\n初始物资增加[color=#D06508]水[/color][/size]
+		</Desc>
+		<Point>5</Point>
+		<Items>
+		    <li Name= "Item_Cake" Count="100"/>
+			<li Name= "Item_Jerky" Count="100"/>
+			<li Name= "Item_Water" Count="100"/>
+		</Items>
+        <NpcSlot>-1</NpcSlot>		
+	</Experience>
+</List></Experiences>

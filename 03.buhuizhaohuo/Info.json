@@ -1,0 +1,12 @@
+{"Name":"不会着火",
+"DisplayName":"不会着火",
+"GameVersion":0.95301,
+"Version":1.0,
+"Desc":"[作者]\r\n    tefeink\r\n[简介]\r\n开局进入游戏之后会自动关闭着火，不用担心被凤凰或者雷劫导致火烧小人无限灭火的情况了。",
+"Author":"TEFEINK",
+"UIPackage":null,
+"ID":"1821874338",
+"Flag":615689368,
+"Tags":["Usability"],
+"IncreasedDesc":"",
+"IsInsideCreat":false}

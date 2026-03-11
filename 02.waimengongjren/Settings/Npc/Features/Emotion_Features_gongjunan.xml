@@ -1,0 +1,141 @@
+<FeatureDefs><List>
+	<!--
+	<Feature Name="N1" Type="Normal">
+		<DisplayName>样例</DisplayName>
+		<Desc>样例</Desc>
+		<HideInUI>1</HideInUI>
+		<Mutex>
+				<li>CrippleLeft</li>
+				<li>CrippleRight</li>
+		</Mutex>
+		<BanRelations>
+				<li>Parent</li>
+		</BanRelations>
+		<Opposition> 对立特性
+			<li>StinkAllOver</li>
+			<li>Slovenly</li>
+		</Opposition>
+		<Close>亲近特性
+			<li>Cleanliness</li>
+		</Close>
+		<MoodBranch> 心情分支
+			<li Old="BedroomExpect8" New="BedroomExpect6"/>
+		</MoodBranch>
+		<ModifierDef>
+			<BaseFive>0,0,0,0,0</BaseFive>
+			<Properties>
+				<li Name="MoveSpeed" AddV="5" AddP="0.5"/>
+				<li Name="VisionRadius" AddP="-0.5"/>
+			</Properties>
+			<Skills>
+				<li Name="Building" Level="1"/>
+				<li Name="Mining" Level="2"/>
+			</Skills>
+			<BanBodyParts>
+				<li>LeftEye</li>
+			</BanBodyParts>
+			<BanJobs>
+				<li>Clean</li>
+				<li>Build</li>
+			</BanJobs>
+			<Damages>
+				<li Part="LeftThighbone" Damage="Scar" Value="0.5"/>
+			</Damages>
+			<Moods>
+				<li>Optimistic</li>
+			</Moods>
+			<GiveFavours>
+				<li>Scar</li>
+			</GiveFavours>
+			<GetFavours>
+				<li>Scar</li>
+			</GetFavours>
+		</ModifierDef>
+	</Feature> 
+	-->
+
+	<Feature Name="gongjuren" Type="Backstory">
+		<DisplayName>工具人</DisplayName>
+		<Desc>作为工具人被制造出来。补充极少能量就可以持续工作，战斗力极强。不需要休息并且不会发生怠工。</Desc>
+		<Mutex>
+			<li>Sensitive</li>
+		</Mutex>
+		<MoodBranch>
+			<li Old="Entertainment6" New="Entertainment3"/>
+			<li Old="Entertainment5" New="Entertainment3"/>
+			<li Old="Entertainment4" New="Entertainment3"/>
+		</MoodBranch>
+		<ModifierDef>
+			<BaseFive>0,10,-3,10,0</BaseFive>
+			<SpecialFlags>
+				<li>FLAG_NOTNEGATIVE</li>
+			</SpecialFlags>
+			<Properties>
+				<li Name="EmotionAmplificationFactor" AddV="0" AddP="-0.5"/>
+				<li Name="NutritionConsumeConstant" AddP="-1.0"/>
+				<li Name="NutritionRecoveryConstant" AddP="1.0"/>
+				<li Name="WaterConsumeConstant" AddP="-1.0"/>
+				<li Name="WaterRecoveryConstant" AddP="1.0"/>
+				<li Name="HappyConsumeConstant" AddP="-1.0"/>
+				<li Name="HappyRecoveryConstant" AddP="1.0"/>
+				<li Name="FatigueConsumeConstant" AddP="-1.0"/>
+				<li Name="FatigueRecoveryConstant" AddP="1.0"/>
+				<li Name="MoveSpeed" AddP="5.0"/>
+				<li Name="VisionRadius" AddP="1.0"/>
+				<li Name="GlobalEfficiency" AddP="5.0"/>
+				<li Name="PainTolerance" AddP="1.0"/>
+				<li Name="PlantHarvestYieldEfficiency" AddP="5.0"/>
+				<li Name="ButcherYieldEfficiency" AddP="5.0"/>
+				<li Name="NpcFight_BaseHitChance" AddV="1.0"/>
+				<li Name="NpcFight_BaseDodgeChance" AddV="1.0"/>
+			</Properties>
+			<Skills>
+				<li Name="Fight" Level="20"/>
+				<li Name="DanQi" Level="20"/>
+				<li Name="Building" Level="20"/>
+				<li Name="Farming" Level="20"/>
+				<li Name="Manual" Level="20"/>
+				<li Name="Mining" Level="20"/>
+				<li Name="Qi" Level="15"/>
+				<li Name="Fabao" Level="20"/>
+				<li Name="FightSkill" Level="20"/>
+				<li Name="DouFa" Level="20"/>
+			</Skills>
+		</ModifierDef>
+		
+	</Feature> 
+
+	<Feature Name="zaishengyinzi" Type="Backstory">
+		<DisplayName>再生因子</DisplayName>
+		<Desc>由于被植入了再生因子，恢复力极强且不畏惧高温与寒冷</Desc>
+		<ModifierDef>
+			<Properties>
+				<li Name="ToleranceTMin" AddV="-273"/>
+				<li Name="ToleranceTMax" AddV="99999"/>
+				<li Name="ComfyTMin" AddV="-273"/>	
+				<li Name="ComfyTMax" AddV="99999"/>
+				<li Name="PainTolerance" AddP="2.0"/>
+				<li Name="RecoveryPower" AddP="10.0"/>
+			</Properties>
+		</ModifierDef>
+	</Feature> 
+
+	<Feature Name="tianzhijuangu" Type="Backstory">
+		<DisplayName>天之眷顾</DisplayName>
+		<Desc>或许是因为天生悲惨的遭遇，上天对此人格外眷顾</Desc>
+		<ModifierDef>
+		<BaseFive>0,0,0,0,5</BaseFive>
+			<Properties>
+				<li Name="GodPenaltyAddV" AddV="-100"/>
+				<li Name="AbilityLvAddV" AddV="-1000"/>
+			</Properties>
+			<Skills>
+				<li Name="SocialContact" Level="5"/>
+				<li Name="Cooking" Level="5"/>
+				<li Name="Medicine" Level="5"/>
+			</Skills>
+		</ModifierDef>
+	</Feature> 
+
+	
+</List></FeatureDefs>
