@@ -1,0 +1,12 @@
+{"Name":"迷雾全开",
+"DisplayName":"迷雾全开",
+"GameVersion":0.95301,
+"Version":1.0,
+"Desc":"[作者]\r\n    tefeink\r\n[简介]\r\n开局进入游戏后过几秒将自动将迷雾全部开启，地图全显示，其他100%可用系列在迷雾全开时同时启用。",
+"Author":"TEFEINK",
+"UIPackage":null,
+"ID":"1821886576",
+"Flag":1135764159,
+"Tags":["Usability"],
+"IncreasedDesc":"",
+"IsInsideCreat":false}
