@@ -1,0 +1,44 @@
+ID	Kind	Name	WorldFlag	Weight	UnLockLevel	PopTip	Desc	ClassName	sParam1	fParam1	sParam2	fParam2	sParam3	fParam3	sParam4	fParam4	FromFightMap	MsgShowType
+ID	类型 空：被动触发	名字	对WorldFlag的要求		解锁等级	事件发生时弹出默认提示 0不开 1开启 	介绍	类名	(天气:s天气类型)  (进攻:进攻富有等级) (妖兽:妖兽种族) (宝物:物品类型lable 权重:ID|ID.)  (角色:数据名字) (秘闻:随机秘闻ID|ID) (路人：行为描述)(动物进攻：种族)（精怪来临：精怪类型）	（天气：1为100%，通灵概率）（进攻:强度等级加成(默认等级+系数)）（ 妖兽:持续时间） （宝物:最小品阶 权重:值）(角色:0心情 1modifier) (拜师：数量)(路人：数量)(动物进攻：最少个数)	(路人：附加标记)（精怪来临：具体名称  用|隔开。必须要有种族）	（宝物:最大品阶）  （进攻:持续时间秒） （权重:持续时间(天)） （角色：0玩家角色 1所有角色）(路人：类型 1普通2拜师3暂住 10内门强住)(动物进攻：最大个数)					会从战斗地图带回来	消息类型，用于消息管理
+90001	Secrets	上古道统		5	4	0		EventSecret	971									
+90002	Secrets	上古道统		5	4	0		EventSecret	972									
+90003	Secrets	上古道统		5	4	0		EventSecret	973									
+90004	Secrets	上古道统		5	4	0		EventSecret	974									
+90005	Secrets	上古道统		5	4	0		EventSecret	975									
+90006	Secrets	上古道统		5	4	0		EventSecret	976									
+90007	Secrets	上古道统		5	4	0		EventSecret	977									
+90008	Secrets	上古道统		5	4	0		EventSecret	978									
+90009	Secrets	上古道统		5	4	0		EventSecret	979									
+90010	Secrets	上古道统		5	4	0		EventSecret	980									
+90011	Secrets	上古道统		5	4	0		EventSecret	981									
+90012	Secrets	上古道统		5	4	0		EventSecret	982									
+90013	Secrets	上古道统		5	4	0		EventSecret	983									
+90014	Secrets	上古道统		5	4	0		EventSecret	984									
+
+99011	Secrets	江湖秘闻		7	4	0		EventSecret	901									
+99012	Secrets	江湖秘闻		7	4	0		EventSecret	902									
+99013	Secrets	江湖秘闻		7	4	0		EventSecret	903									
+99014	Secrets	江湖秘闻		7	4	0		EventSecret	904									
+99015	Secrets	江湖秘闻		7	4	0		EventSecret	905									
+
+99021	Secrets	异界秘闻		7	4	0		EventSecret	921									
+99022	Secrets	残卷踪迹		7	4	0		EventSecret	926									
+99023	Secrets	残卷踪迹		7	4	0		EventSecret	927									
+99024	Secrets	残卷踪迹		7	4	0		EventSecret	928									
+99025	Secrets	残卷踪迹		7	4	0		EventSecret	929									
+
+99901		神秘的骸骨		30	0	1	从天上掉下来一具神秘的骸骨。	EventItemDrop			Item_XXZS_HG_01							
+99902		神秘的骸骨		30	0	1	从天上掉下来一具神秘的骸骨。	EventItemDrop			Item_XXZS_HG_01							
+99903		神秘的骸骨		30	0	1	从天上掉下来一具神秘的骸骨。	EventItemDrop			Item_XXZS_HG_01							
+99904		神秘的骸骨		30	0	1	从天上掉下来一具神秘的骸骨。	EventItemDrop			Item_XXZS_HG_01							
+99905		神秘的骸骨		30	0	1	从天上掉下来一具神秘的骸骨。	EventItemDrop			Item_XXZS_HG_01							
+
+99801		门派追杀				1	一群穷凶极恶的江湖人士听闻你的宗门有【武穆遗书】的线索，便闻风而至，准备抢夺你的宗门。	EventAttack	Rich	9	Human	600						t6
+99802		门派追杀				1	一群别有用心的江湖人士听闻你的宗门有【武穆遗书】的线索，便闻风而至，准备抢夺你的宗门。	EventAttack	Rich	1	Human	600						t6
+99803		门派追杀				1	一群阴险狡诈的江湖人士听闻你的宗门有【武穆遗书】的线索，便闻风而至，准备抢夺你的宗门。	EventAttack	Rich	3	Human	600						t6
+99804		门派追杀				1	一群凶神恶煞的江湖人士听闻你的宗门有【武穆遗书】的线索，便闻风而至，准备抢夺你的宗门。	EventAttack	Rich	6	Human	600						t6
+
+
+
+
+

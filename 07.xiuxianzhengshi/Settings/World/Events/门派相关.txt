@@ -1,0 +1,44 @@
+ID	Kind	Name	WorldFlag	Weight	NpcStay	UnLockLevel	PopTip	Desc	ClassName	sParam1	fParam1	sParam2	fParam2	sParam3	fParam3	sParam4	fParam4
+ID	类型 空：被动触发	名字	对WorldFlag的要求		会有NPC残留地图 1为门派1 2为门派2 3为胜利方	解锁等级	事件发生时弹出默认提示 0不开 1开启 	介绍	类名	胜利字符串	好感变化 实力变化	失败字符串	实力变化	PowerCheck 实力判断成功 AddElder新增长老 DelElder失去长老		发生地点	反向箭头
+67900	SchoolSocialGood	正向社交		1		4		据传{0}的弟子在{1}附近游历时，遇到了一名{1}的长老。{1}的长老见{0}的弟子根骨不错，便为其指点了一些阵法之道，{0}的弟子感觉受益良多。此事亦在修行界传为美谈，两派的关系也因此略有提升。	EventSocial		50						
+67901	SchoolSocialGood	正向社交		1		4		据传{0}的长老在{1}附近游历时，遇到了一名{1}的弟子。{0}的长老见{1}的弟子根骨不错，便为其指点了一些阵法之道，{0}的弟子感觉受益良多。此事亦在修行界传为美谈，两派的关系也因此略有提升。	EventSocial		50						
+67902	SchoolSocialGood	正向社交		1		4		据传{0}的弟子曾到访过{1}的山门，恰逢一名{1}的弟子，两人一见钟情，愿长相厮守，结为道侣。正巧{1}的掌门也愿意成就这段良缘，也就随了他俩的心愿。此事在修行界传为一段佳话，两派的关系也因此略有提升。	EventSocial		90						
+67903	SchoolSocialGood	正向社交		1		4		据传{0}的长老曾到访过{1}的山门，恰逢一名{1}的长老，两人一见钟情，愿长相厮守，结为道侣。正巧{1}的掌门也愿意成就这段良缘，也就随了他俩的心愿。此事在修行界传为一段佳话，两派的关系也因此略有提升。	EventSocial		90						
+
+
+
+67920	SchoolSocialBad	反向社交		1		4		据传{0}的弟子在{1}附近游历时，曾被{1}的掌门邀请为座上宾，最后不知何故，却殒身于火铜房内。{0}得此消息后，门派上下极为震怒，{0}发动大量弟子攻向{1}的门派所在地，双方在此鏖战数日，搅动数百里方圆天象崩乱，修行界为之震动。	EventSocial	占据先手之利，{0}最终胜利，其门下弟子亦从斗法中多有提升突破，门派实力大涨。{1}却损失惨重，门派实力大损。此役之后，两派的关系也大大恶化了。	-100	占据地利背靠山门之故，{1}最终胜利，其门下弟子亦从斗法中多有提升突破，门派实力大涨。{0}却损失惨重，门派实力大损。此役之后，两派的关系也大大恶化了。	2000	PowerCheck			
+67921	SchoolSocialBad	反向社交		1		4		据传{0}的长老在{1}附近游历时，曾被{1}的掌门邀请为座上宾，最后不知何故，却殒身于火铜房内。{0}得此消息后，门派上下极为震怒，{0}发动大量弟子攻向{1}的门派所在地，双方在此鏖战数日，搅动数百里方圆天象崩乱，修行界为之震动。	EventSocial	占据先手之利，{0}最终胜利，其门下弟子亦从斗法中多有提升突破，门派实力大涨。{1}却损失惨重，门派实力大损。此役之后，两派的关系也大大恶化了。	-150	占据地利背靠山门之故，{1}最终胜利，其门下弟子亦从斗法中多有提升突破，门派实力大涨。{0}却损失惨重，门派实力大损。此役之后，两派的关系也大大恶化了。	3000	PowerCheck			
+
+
+
+67930	SchoolPowerUp	实力上升		1		4		据传{0}门中一弟子{1}外出历练时，偶然获得上古传承，修为大涨，一连突破数个大境界。{0}掌门大喜过望，将其拜为长老，以激励门下弟子修行。{0}再添一名大能。	EventPower				2000	AddElder	1		
+67931	SchoolPowerUp	实力上升		1		4		据传{0}的掌门曾秘密点拨一名弟子{1}，出关之后，该弟子已突破至元神境大圆满，门派上下皆欢欣鼓舞。{0}再添一名大能。	EventPower				3000	AddElder	1		
+67932	SchoolPowerUp	实力上升		1		4		据传{0}门中一精英弟子{1}在感悟天地大道时，偶然进入太虚定境中，等到出定之时，修为已是在世真仙，{0}掌门深感欣慰，将其纳入长老会中。{0}再添一名大能。	EventPower				4000	AddElder	1		
+67933	SchoolPowerUp	实力上升		1		4		据传{0}的掌门见门下弟子皆努力修行，深感欣慰，一时间心情大好，将门中大量天材地宝赏赐给资质不错的弟子，一时间竟一连出现数个修行奇才{1}、{2}、{3}等，实力直逼元神境界。{0}再添三名大能。	EventPower				5000	AddElder	3		
+
+67940	SchoolPowerUp	实力上升		1	1	4		据传{0}在[PLACE]内找到了【武穆遗书】里记载的结界，并成功进入，不但得到了【武穆遗书】的真传，还收获了大量的阵法秘籍。{0}因此番奇遇，门派实力大涨。	EventPower				2300			Place_Desert|Place_SouthForest|Place_Snowfield|Place_FertileField|Place_CentralPlains|Place_Hei4|Place_HeHuan1|Place_Desert2|Place_Desert4|Place_Snowfield3|Place_FertileField1|Place_FertileField2|Place_FertileField3|Place_FertileField4|Place_FertileField5|Place_CentralPlains1|Place_CentralPlains2|Place_CentralPlains3|Place_CentralPlains4|Place_CentralPlains5|Place_BirthPlace11|Place_BirthPlace12|Place_BirthPlace13|Place_BirthPlace14	
+67941	SchoolPowerUp	实力上升		1	1	4		据传{0}在[PLACE]内找到了【上古丹宗】遗留在凡间的一方小世界，因此而获得大量天材地宝、灵丹妙药等。{0}因此番奇遇，门派实力大涨。	EventPower				2700			Place_Desert|Place_SouthForest|Place_Snowfield|Place_FertileField|Place_CentralPlains|Place_Hei4|Place_HeHuan1|Place_Desert2|Place_Desert4|Place_Snowfield3|Place_FertileField1|Place_FertileField2|Place_FertileField3|Place_FertileField4|Place_FertileField5|Place_CentralPlains1|Place_CentralPlains2|Place_CentralPlains3|Place_CentralPlains4|Place_CentralPlains5|Place_BirthPlace11|Place_BirthPlace12|Place_BirthPlace13|Place_BirthPlace14	
+67942	SchoolPowerUp	实力上升		1	1	4		据传{0}在[PLACE]内找到了【上古器宗】遗留在凡间的一方小世界，因此而获得大量秘藏法器、稀世秘宝等。{0}因此番奇遇，门派实力大涨。	EventPower				2700			Place_Desert|Place_SouthForest|Place_Snowfield|Place_FertileField|Place_CentralPlains|Place_Hei4|Place_HeHuan1|Place_Desert2|Place_Desert4|Place_Snowfield3|Place_FertileField1|Place_FertileField2|Place_FertileField3|Place_FertileField4|Place_FertileField5|Place_CentralPlains1|Place_CentralPlains2|Place_CentralPlains3|Place_CentralPlains4|Place_CentralPlains5|Place_BirthPlace11|Place_BirthPlace12|Place_BirthPlace13|Place_BirthPlace14	
+67943	SchoolPowerUp	实力上升		1	1	4		据传{0}在[PLACE]内找到了【上古法宗】遗留在凡间的一方小世界，因此而获得大量不传秘籍、典藏经书等。{0}因此番奇遇，门派实力大涨。	EventPower				2700			Place_Desert|Place_SouthForest|Place_Snowfield|Place_FertileField|Place_CentralPlains|Place_Hei4|Place_HeHuan1|Place_Desert2|Place_Desert4|Place_Snowfield3|Place_FertileField1|Place_FertileField2|Place_FertileField3|Place_FertileField4|Place_FertileField5|Place_CentralPlains1|Place_CentralPlains2|Place_CentralPlains3|Place_CentralPlains4|Place_CentralPlains5|Place_BirthPlace11|Place_BirthPlace12|Place_BirthPlace13|Place_BirthPlace14	
+67944	SchoolPowerUp	实力上升		1	1	4		据传{0}在[PLACE]内找到了【上古符宗】遗留在凡间的一方小世界，因此而获得大量先天元灵、精妙符篆等。{0}因此番奇遇，门派实力大涨。	EventPower				2700			Place_Desert|Place_SouthForest|Place_Snowfield|Place_FertileField|Place_CentralPlains|Place_Hei4|Place_HeHuan1|Place_Desert2|Place_Desert4|Place_Snowfield3|Place_FertileField1|Place_FertileField2|Place_FertileField3|Place_FertileField4|Place_FertileField5|Place_CentralPlains1|Place_CentralPlains2|Place_CentralPlains3|Place_CentralPlains4|Place_CentralPlains5|Place_BirthPlace11|Place_BirthPlace12|Place_BirthPlace13|Place_BirthPlace14	
+67945	SchoolPowerUp	实力上升		1	1	4		据传{0}在[PLACE]内找到了【上古剑宗】遗留在凡间的一方小世界，因此而获得大量无上神通、玄冥妙法等。{0}因此番奇遇，门派实力大涨。	EventPower				2700			Place_Desert|Place_SouthForest|Place_Snowfield|Place_FertileField|Place_CentralPlains|Place_Hei4|Place_HeHuan1|Place_Desert2|Place_Desert4|Place_Snowfield3|Place_FertileField1|Place_FertileField2|Place_FertileField3|Place_FertileField4|Place_FertileField5|Place_CentralPlains1|Place_CentralPlains2|Place_CentralPlains3|Place_CentralPlains4|Place_CentralPlains5|Place_BirthPlace11|Place_BirthPlace12|Place_BirthPlace13|Place_BirthPlace14	
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+																	
+

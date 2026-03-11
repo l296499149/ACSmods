@@ -1,0 +1,31 @@
+	备注
+	Effect 连接阵眼加成，加成为数值
+	CoreEffect 连接阵枢加成，加成为百分比
+	Basev 数值加成
+	Addp 百分比加成
+	SkillCooldown	阵法运转能力	阵法技能冷却时间
+	ReduceCost		阵法效率	降低阵法需求
+	FabaoAtkPower	阵法御器能力
+	MagicPower		阵法术法能力
+	Sheild			阵法护御能力
+	Stability		阵法稳定度
+	
+	备注：
+	Main 0 代表显示阵眼 1 代表显示阵枢
+	Base 0 代表阵法页面隐藏 1 代表阵法页面一直显示 2 代表阵法页面获取显示
+	等级 1 绿 2 蓝 3 紫 4 橙 5 粉
+	节点 0~5
+	SlotSuits 阵法真意
+
+	<Condition>
+		<li>
+			<SexNeed>Male</SexNeed> None Female
+			<GongLevelNeed>God</GongLevelNeed>
+			<MaxLingNeed>99999</MaxLingNeed>
+			<DaoHangNeed>200</DaoHangNeed>
+			<EquipmentNeed>Item_MiBao_ZhuXianZhenTu</EquipmentNeed>
+			<EsotericaNeed>jdj</EsotericaNeed>
+			<SkillNeed Type="Fabao" Level="20"/>
+			<GongKindCondition GongKind="None" GongName="dddddd"/>
+		</li>
+	</Condition>
